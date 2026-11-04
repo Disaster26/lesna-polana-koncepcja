@@ -505,3 +505,9 @@ ul.cennik-l li{margin:0!important}
 .minelo{display:none!important}
 @media (max-width:760px){.pk ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px}.pk ul li{font-size:.96rem}}
 .nw{white-space:nowrap}
+.jubi-duzy{grid-template-columns:auto minmax(0,1fr) minmax(0,.9fr)}
+.jubi-witraz{margin:0}
+.jubi-witraz img{width:100%;aspect-ratio:740/520;object-fit:cover;border-radius:var(--r)}
+.jubi-witraz figcaption{color:rgba(233,239,234,.7)}
+@media (max-width:1024px){.jubi-duzy{grid-template-columns:auto minmax(0,1fr)}.jubi-witraz{grid-column:1/-1}}
+@media (max-width:760px){.jubi-duzy{grid-template-columns:minmax(0,1fr)}}

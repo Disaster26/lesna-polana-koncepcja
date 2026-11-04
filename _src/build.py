@@ -398,6 +398,7 @@ def historia():
 <p class="lead">Sto lat gości, rozmów na tarasie i ciszy nad strumieniem. Rok jubileuszowy chcemy przeżyć razem z tymi, którzy do nas wracają.</p>
 <p>O wydarzeniach i ofertach jubileuszowych będziemy informować na tej stronie oraz na Facebooku i Instagramie.</p>
 <a class="link-strz" href="{FB}" target="_blank" rel="noopener">Leśna Polana na Facebooku</a></div>
+<figure class="jubi-witraz">{img('witraz', 'Witraż w kaplicy Leśnej Polany', sizes='(max-width:1024px) 92vw, 30vw')}<figcaption>Witraż w kaplicy pw. św. Jana Pawła II</figcaption></figure>
 </div></section>
 
 <section class="sec alt"><div class="wrap">
